@@ -5,7 +5,6 @@
  * Date: 21-01-2019
  * Time: 16:47
  * PHP Random Generator
- * Can be read by postman
  */
 
 namespace JMackie\PHPRandomGenerator;
