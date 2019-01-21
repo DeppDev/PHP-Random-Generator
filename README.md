@@ -1,6 +1,24 @@
 # PHP-Random-Generator</br></br>
-###### Generates passwords &amp; API keys then outputs as JSON allowing for curling and getting the reply in other scripts and programs
-###### This was orignally made for person and internal use. Will be updated with more features</br></br>
+###### Generates passwords, API keys, Nouns, Adjectives & Names
+###### This was orignally made for personal and internal use. Will be updated with more features</br></br>
+
+###### ranname.php
+What can it do
+- Generates random names, Adjectives & nouns
+- Supports Male & female names with last names
+
+Options:
+?type=FFN For Female First Name
+?type=MFN For Male First Name
+?type=LN For Last Name
+?type=FN For Female Name
+?type=MN For Male Name
+?type=A For Randome adjectives
+?type=N For Random Nouns
+?type=help Basically shows this
+?num=(number here) Can be mixed with api or pass will return how many you ask for
+
+###### ranpass.php:
 What can it do
 - Supports creating high level secure password and standard api keys. More to come
 - Can be read by postman
@@ -14,6 +32,7 @@ Options:
 - ?type=api For API generation
 - ?type=help basically says this README
 - ?num=(number here) Can be mixed with api or pass will return how many you ask for
+
 
 Usage:</br>
 You can use POSTMAN to test this. This will reply 5 API users & passwords
