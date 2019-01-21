@@ -320,7 +320,7 @@ if(in_array($ptype,$helpmeplease)) {
     "?type=A" => "For Randome adjectives",
     "?type=N" => "For Random Nouns",
     "?type=help" => " <==== You are here",
-    "?num=(number here)" => "Can be mixed with api or pass will return how many you ask for",),
+    "?num=(number here)" => "Return how many whatevers you ask for",),
   ));
   header('Content-Type: application/json');
   $helpjson = json_encode($help);
